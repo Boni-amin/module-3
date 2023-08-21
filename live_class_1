@@ -1,0 +1,30 @@
+"use strict";
+
+/*
+// Class Topic 
+Why ES6 ?
+Run Jsvascript Over Node js (Node.js® is an open-source, cross-platform JavaScript runtime environment.)
+Es6 Syntax -- "Use Strict"
+
+Es6 Function ---
+
+
+
+// Je Golo Node.js / ES6 a Kaj korbe na.
+1. Document.write()
+2. Var 
+3. Javascript Window Object.
+4. Javascript Navigator Object.
+5. Common javascript Events.
+6.Javascript Dom
+
+*/
+
+
+(async()=>{
+    
+await fetch('https://dummyjson.com/products/1')
+.then(res=> res.json())
+.then(JSON => console.log(JSON))
+            
+})();
